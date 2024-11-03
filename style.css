@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27);
 
 body {
 
@@ -23,7 +24,7 @@ h4 {
  nav > a {
   
     color:rgb(255, 255, 255);
-    font-family:  "Yesteryear", cursive;
+    font-family:'Poppins', sans-serif;
     margin-left: 50px;
    
  
@@ -52,9 +53,52 @@ color:rgb(43, 39, 34);
   left: 450px; 
 
   }
-  
 
-header{
+  header
+  {
+    background-image: url(img/fundobarroco.jpeg);
+    
+        color: #fff;
+        padding: 15px 0;
+    }
+    
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header h1 {
+        margin: 0;
+        font-size: 36px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px; /* Adiciona espaçamento entre os itens */
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 15px;
+        transition: background 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+        background-color: #ff9800;
+        border-radius: 5px;
+    }
+    
+/*header{
 background-image: url(img/fundobarroco.jpeg);
 padding: 2px;
  box-shadow: 10px 10px 10px black;
@@ -69,7 +113,7 @@ header > h4 {
     top: 5px;
     left:10px;
    
-}
+}*/
 
 #primeirop {
    background-color: #c29367;
@@ -82,7 +126,8 @@ header > h4 {
 
  #primeirop > p {
 background-color:#fff1d8;
-font-size: 25px;
+font-family: 'Poppins', sans-serif;
+font-size: 23px;
 width: 560px;
 height: 350px;
 position: relative;
@@ -135,15 +180,83 @@ top:50px;
 
 }
 
+#brasil {
+background-image: url(img/fundobarroco.jpeg);
+position: relative;
+}
+ #brasil h2 {
+    background-color:#c29367;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px; 
+    display: flex;
+    justify-content: center;
+ }
+#brasil p {
+    background-color:#bf8828;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    width: 560px;
+    height: 300px;
+    position: relative;
+    top: 1px;
+    left: 800px;
+    padding: 10px;
+    border-radius: 30px;
+}
 
+#minas {
+    background-color: #503535;
+position: relative;
+top: 5px;
+left: 30px;
+}
+
+#minas h2 {
+    background-color:#c29367;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px; 
+    display: flex;
+    justify-content: center;
+}
+
+#minas p {
+    padding: 5px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;   
+    margin:5px;
+}
+
+/*#minas p {
+    background-color:#fff1d8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    width: 560px;
+    height: 300px;
+    position: relative;
+    top: 1px;
+    left: 800px;
+    padding: 10px;
+    border-radius: 30px;
+
+}*/
+
+#lugares h2 {
+    background-color:#c29367;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px; 
+    display: flex;
+    justify-content: center;
+}
 
 
 footer {
-background-image: url(img/fundobarroco.jpeg);
-justify-content: end;
+    background: #503535;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-footer > p {
-color: #fff1d8;
-font-size: 40px;
+footer p {
+    margin: 0;
 }
