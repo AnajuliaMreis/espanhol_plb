@@ -7,6 +7,13 @@ body {
 
 }
 
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
 h4 {
     color:aliceblue;
  position: relative;
@@ -76,7 +83,7 @@ color:rgb(43, 39, 34);
     nav ul {
         list-style: none;
         display: flex;
-        gap: 20px; /* Adiciona espaçamento entre os itens */
+        gap: 20px;  Adiciona espaçamento entre os itens 
         margin: 0;
         padding: 0;
     }
@@ -98,7 +105,7 @@ color:rgb(43, 39, 34);
         border-radius: 5px;
     }
     
-/*header{
+header{
 background-image: url(img/fundobarroco.jpeg);
 padding: 2px;
  box-shadow: 10px 10px 10px black;
@@ -113,7 +120,7 @@ header > h4 {
     top: 5px;
     left:10px;
    
-}*/
+}
 
 #primeirop {
    background-color: #c29367;
@@ -137,14 +144,14 @@ padding: 10px;
 border-radius: 30px;
  }
 
-/*#linhat {
+#linhat {
     background-color: #c29367;
     margin: 10px;
     padding: 5px;
     border-radius: 10px;
     position: relative;
     top:10px;
-   }*/
+   }
 
 #linhat > p {
 
@@ -158,25 +165,23 @@ border-radius: 30px;
     padding: 10px;
     border-radius: 30px;
      }
-    
-#historia {
-background-color: #c29367;
-margin: 10px;
-padding: 5px;
-border-radius: 10px;
-position: relative;
-top: 20px;
-left: 350px;
-width: 900px;
-height: 600px;
+
+#historia > p {
+    background-color:#fff1d8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    position: relative;
+    top: 1px;
+    left: 40px;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 section {
 background-color: rgb(255, 240, 191);
 margin:10px;
 padding:30px;
-position:relative;
-top:50px;
+
 
 }
 
@@ -227,7 +232,7 @@ left: 30px;
     margin:5px;
 }
 
-/*#minas p {
+#minas p {
     background-color:#fff1d8;
     font-family: 'Poppins', sans-serif;
     font-size: 23px;
@@ -239,7 +244,7 @@ left: 30px;
     padding: 10px;
     border-radius: 30px;
 
-}*/
+}
 
 #lugares h2 {
     background-color:#c29367;
@@ -248,6 +253,12 @@ left: 30px;
     display: flex;
     justify-content: center;
 }
+
+#lugares h4 {
+color: black;
+
+}
+
 
 
 footer {
@@ -260,3 +271,34 @@ footer {
 footer p {
     margin: 0;
 }
+
+
+
+
+
+
+
+
+
+/*section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #4a4a8b;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+
