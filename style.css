@@ -3,7 +3,7 @@
 
 body {
 
-    background-color:  #f6dcaf;
+    background-color: #FFDEC2;
 
 }
 
@@ -17,13 +17,13 @@ body {
     font-family: 'Cormorant Garamond', serif;
     margin: 0;
     padding: 0;
-    background-color:#f6dcaf;
+    background-color:#FFDEC2;
     color: #333;
 }
 
 /* Estilo do header */
 header {
-    background-color: #5f371d; /* Cor escura para o fundo */
+    background-color:#945600;/* Cor escura para o fundo */
     color: white;
     padding: 20px;
     display: flex;
@@ -88,6 +88,8 @@ h1 {
     letter-spacing: 1px;
     display: flex;
     justify-content: center;
+    background-color: #F0A242;
+    border-radius: 10px;
 }
 
 #img1 {
@@ -100,14 +102,15 @@ top: 10px;
 /* Estilo para centralizar o conteúdo de #primeirop */
 #primeirop {
     display: flex;
-    justify-content: center;  /* Centraliza horizontalmente */ 
-    text-align: center;       /* Garante que o texto dentro do parágrafo fique centralizado */
+    justify-content: center; 
+    text-align: center;      
     padding: 20px;
-    margin: 20px 0;           /* Espaço superior e inferior */
+    margin: 20px 0;      
+border-color: #333;
 }
 
 #primeirop p {
-    font-size: 1.1rem;       /* Ajusta o tamanho da fonte */
+    font-size: 1.5rem;       /* Ajusta o tamanho da fonte */
     line-height: 1.6;         /* Define um bom espaçamento entre as linhas */
 
 }
