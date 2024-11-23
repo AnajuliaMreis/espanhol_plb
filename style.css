@@ -438,6 +438,24 @@ footer p {
 
 
 */
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
 footer {
     background-color: #5b3918; 
     color: white;
@@ -451,28 +469,6 @@ footer .footer-content p {
     margin: 5px 0;
 }
 
-footer .footer-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    margin: 0 10px;
-    transition: color 0.3s;
-}
-
-footer .footer-links a:hover {
-    color: #d4af37; 
-}
-
-footer .footer-links {
-    margin-top: 10px;
-}
 
 
-@media (max-width: 768px) {
-    footer .footer-content p {
-        font-size: 0.8rem;
-    }
-    footer .footer-links a {
-        font-size: 0.8rem;
-    }
-}
+
