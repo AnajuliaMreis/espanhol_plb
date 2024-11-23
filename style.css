@@ -23,7 +23,7 @@ body {
 
 /* Estilo do header */
 header {
-    background-color:#945600;/* Cor escura para o fundo */
+    background-color:#6E0D25;/* Cor escura para o fundo */
     color: white;
     padding: 20px;
     display: flex;
@@ -96,22 +96,29 @@ h1 {
 display: flex;
 justify-content: center;
 position: relative;
-top: 10px;
+top: 10px;}
 
-}
-/* Estilo para centralizar o conteúdo de #primeirop */
 #primeirop {
     display: flex;
     justify-content: center; 
     text-align: center;      
     padding: 20px;
     margin: 20px 0;      
-border-color: #333;
+border:#5b3918;
+}
+
+
+#primeirop, #linhat, #historia, section, #brasil, #minas, #lugares, #lugares2 {
+    margin: 20px;
+    padding: 20px;
+    background-color:#d2a884;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #primeirop p {
-    font-size: 1.5rem;       /* Ajusta o tamanho da fonte */
-    line-height: 1.6;         /* Define um bom espaçamento entre as linhas */
+    font-size: 1.5rem;     
+    line-height: 1.6;         
 
 }
 
