@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitetura Barroca na Espanha</title>
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#galeria-imagens {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#galeria-imagens img {
+    width: 30%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#galeria-imagens img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    background: #8b0000;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Arquitetura Barroca na Espanha</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <div  class="container">
+            <p>A arquitetura barroca na Espanha, surgida no século XVII, é caracterizada por sua exuberância, dinamismo e detalhamento, refletindo o espírito da Contrarreforma.</p>
+        </section>
+
+        <section id="caracteristicas">
+            <h2>Características</h2>
+            <ul>
+                <li>Decoração extravagante com ornamentos detalhados.</li>
+                <li>Uso de curvas e formas ondulantes.</li>
+                <li>Integração entre arquitetura, pintura e escultura.</li>
+                <li>Exemplos famosos: Catedral de Santiago de Compostela e a Basílica de Nossa Senhora do Pilar.</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div id="galeria-imagens">
+                <img src="img1.jpg" alt="Exemplo 1 - Arquitetura Barroca">
+                <img src="img2.jpg" alt="Exemplo 2 - Arquitetura Barroca">
+                <img src="img3.jpg" alt="Exemplo 3 - Arquitetura Barroca">
+            </div>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Arquitetura Barroca. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
