@@ -118,11 +118,15 @@ border:#5b3918;
 }
 
 #primeirop p {
-    font-size: 1.2rem;     
+    font-size: 1.5rem;     
     line-height: 1.3;         
 
 }
 
+#historia > p{
+font-size: 2em;
+line-height: 1.3; 
+}
 
 
 section {
@@ -132,11 +136,27 @@ section {
     margin-bottom: 30px;
 }
 
+/* lugares */
+
+
+#lugares > h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #lugares > h4 {
+    position: relative;
+    top:10px;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+  }
+
 
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 33px;
 }
 
 .product img {
@@ -150,6 +170,25 @@ section {
     margin-top: 10px;
 }
 
+
+
+
+button {
+        padding: 10px 20px;
+        background-color: #ff2e8c;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #a7fff8;
+    }
+
+
+
+
+/*footer*/
+
 footer {
     background-color: #5b3918; 
     color: white;
@@ -162,6 +201,8 @@ footer .footer-content p {
     margin: 5px 0;
 }
 
+
+/*linha do tempo*/
 .timeline {
     position: relative;
     margin: 50px auto;
