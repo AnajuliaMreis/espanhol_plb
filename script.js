@@ -2,7 +2,7 @@
 
 // Primeiro item
 const img1 = document.querySelector('#img1');
-const descricao1 = document.querySelector('#descricao3');
+const descricao1 = document.querySelector('#descricao1');
 img1.addEventListener('mouseover', () => {
     descricao1.style.display = 'block'; // Exibe a descrição
 });
@@ -41,10 +41,6 @@ img4.addEventListener('mouseout', () => {
 });
 
 
-  //sobre nósa
-function sobre(){
-    let menuMobile = document.querySelector('.mobile-menu');
-}
   
 
  // menú
