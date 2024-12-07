@@ -9,35 +9,136 @@
 
 
 @media (max-width: 768px) {
-
+    body, html {
+        overflow-x: hidden;
+    }
     
 }
 
 @media (max-width: 630px) {
 
-    main {
-        width: 100%;
-    }
 
-    #brasil {
-         
-    }
+
+        header > ul {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+
+
+        #brasil > figure img {
+            max-width: 100%; /* Limita a largura da imagem ao tamanho do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+            display: block; 
+      
+            }
+           
+            #minas > figure img {
+                max-width: 100%; /* Limita a largura da imagem ao tamanho do contêiner */
+                height: auto; /* Mantém a proporção da imagem */
+                display: block; 
+            }
+
+            body, html {
+                overflow-x: hidden;
+            }
+        
+            main {
+                width: 100%; /* Garante que o main ocupe toda a largura disponível */
+                padding: 0; /* Remove qualquer padding que esteja causando problema */
+            }
+        
+            header {
+                padding: 15px 30px;
+            }
+        
+            header ul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        
+            header ul li {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+        
+            header ul li a
+            {
+            padding: 5px 10px;
+            border-radius: 20px;
+            }
+        
+        
+            #brasil > figure img,
+            #minas > figure img {
+                max-width: 100%; 
+                height: auto;
+            }
+        
+           
+            header, footer, nav, section {
+                font-size: 80%;
+            }
+        
+           * {
+                box-sizing: border-box; 
+            }
+        }
+        
+
+
  
-#brasil > figure img {
- border-radius: 10px; 
- width: 400px;
- height: 400px;
- }
+ @media (max-width: 450px) {
+    body, html {
+        overflow-x: hidden; 
+    }
 
- #minas > figure img {
-    border-radius: 10px; 
-    width: 400px;
-    height: 400px;
- }
+    main {
+        width: 100%; 
+        padding: 0; 
 
-}
+    header {
+        padding: 15px 30px;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    header ul li a
+    {
+    padding: 5px 10px;
+    border-radius: 20px;
+    }
+
+
+    #brasil > figure img,
+    #minas > figure img {
+        max-width: 100%; 
+        height: auto;
+    }
 
     
+    header, footer, nav, section {
+        font-size: 80%; 
+    }
+
+ 
+    * {
+        box-sizing: border-box; 
+    }
+}
+
+
+
+    
+
 
 
 
@@ -45,7 +146,7 @@
 body {
 
     background-color: white;
-
+    overflow-x: hidden;
 }
 
 main {
@@ -361,6 +462,7 @@ padding: 10px;
   
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 33px;
+
 }
 
 .local img {
@@ -385,13 +487,13 @@ padding: 10px;
 
 
 
-
 button {
         padding: 10px 20px;
         background-color: #8B0000;
         color: white;
         border: none;
         cursor: pointer;
+        display: flex;
     }
   .local button:hover {
         background-color: #63a8a3;
