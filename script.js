@@ -1,8 +1,59 @@
+//curiosidades
 
-        const button = document.getElementById('location1');
-        
-        // Adiciona um evento de clique
-        button.addEventListener('click', () => {
-            // Redireciona para o Google Maps
-            window.location.href = 'https://www.google.com/maps/place/Pal%C3%A1cio+Real+de+Madrid/@40.4181183,-3.7168977,17z/data=!4m6!3m5!1s0xd42287e7da4a9c1:0x2e7fec79d6ce4851!8m2!3d40.417955!4d-3.714312!16zL20vMDRtM3lr?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D';
-        });
+// Primeiro item
+const img1 = document.querySelector('#img1');
+const descricao1 = document.querySelector('#descricao3');
+img1.addEventListener('mouseover', () => {
+    descricao1.style.display = 'block'; // Exibe a descrição
+});
+img1.addEventListener('mouseout', () => {
+    descricao1.style.display = 'none'; // Esconde a descrição
+});
+
+// Segundo item
+const img2 = document.querySelector('#img2');
+const descricao2 = document.querySelector('#descricao2');
+img2.addEventListener('mouseover', () => {
+    descricao2.style.display = 'block'; // Exibe a descrição
+});
+img2.addEventListener('mouseout', () => {
+    descricao2.style.display = 'none'; // Esconde a descrição
+});
+
+// Terceiro item
+const img3 = document.querySelector('#img3');
+const descricao3 = document.querySelector('#descricao3');
+img3.addEventListener('mouseover', () => {
+    descricao3.style.display = 'block'; // Exibe a descrição
+});
+img3.addEventListener('mouseout', () => {
+    descricao3.style.display = 'none'; // Esconde a descrição
+});
+
+// Quarto item
+const img4 = document.querySelector('#img4');
+const descricao4 = document.querySelector('#descricao4');
+img4.addEventListener('mouseover', () => {
+    descricao4.style.display = 'block'; // Exibe a descrição
+});
+img4.addEventListener('mouseout', () => {
+    descricao4.style.display = 'none'; // Esconde a descrição
+});
+
+
+  //sobre nósa
+function sobre(){
+    let menuMobile = document.querySelector('.mobile-menu');
+}
+  
+
+ // menú
+
+ function menu() {
+  let menuMobile = document.querySelector('.mobile-menu');
+  if (menuMobile.classList.contains('open')){
+    menuMobile.classList.remove('open');
+  } else {
+    menuMobile.classList.add('open')
+  }
+};
