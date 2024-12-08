@@ -490,6 +490,10 @@ body, html {
 
 @media (max-width: 630px) {
 
+ #historia {
+    font-size: 1.5rem;     
+
+}
 
 
     header > ul {
@@ -549,8 +553,12 @@ body, html {
         }
     
        
-        header, footer, nav, section {
-            font-size: 80%;
+        header, footer, nav,{
+            font-size: 90%;
+        }
+        
+        section {
+            font-size: 160%;
         }
     
        * {
