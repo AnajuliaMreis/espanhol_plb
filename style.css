@@ -620,10 +620,14 @@ border-radius: 20px;
 }
 
 
-header, footer, nav, section {
+header, footer, nav, {
     font-size: 80%; 
 }
 
+
+section {
+    font-size: 35px;
+}
 
 * {
     box-sizing: border-box; 
