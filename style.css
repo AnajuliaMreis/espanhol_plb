@@ -112,7 +112,7 @@ text-align: center;
 
 /*Primeiro Parágrafo*/
 
-#img1 {
+#imagem1 {
 display: flex;
 justify-content: center;
 position: relative;
@@ -620,7 +620,7 @@ border-radius: 20px;
 }
 
 
-header, footer, nav, {
+header, footer, nav {
     font-size: 80%; 
 }
 
