@@ -625,6 +625,7 @@ border-radius: 20px;
 
 header, footer, nav {
     font-size: 80%; 
+    font-weight: 500;
 }
 
 
