@@ -408,8 +408,8 @@ footer .footer-content p {
 
 .timeline-content {
     background-color: #fff;
-    padding: 25px 30px; /* Aumentei o padding */
-    border-radius: 10px; /* Bordas mais arredondadas */
+    padding: 25px 30px; 
+    border-radius: 10px; 
 }
 
 .timeline-content > h3 {
@@ -500,6 +500,15 @@ body, html {
 
 }
 
+#lugares2 {
+    font-size: 1em;
+}
+
+#lugares2 > img {
+    max-width: 100%; 
+        height: auto;
+        display: block; 
+}
 
     header > ul {
         flex-direction: column;
@@ -509,15 +518,15 @@ body, html {
 
 
     #brasil > figure img {
-        max-width: 100%; /* Limita a largura da imagem ao tamanho do contêiner */
-        height: auto; /* Mantém a proporção da imagem */
+        max-width: 100%; 
+        height: auto; 
         display: block; 
   
         }
        
         #minas > figure img {
-            max-width: 100%; /* Limita a largura da imagem ao tamanho do contêiner */
-            height: auto; /* Mantém a proporção da imagem */
+            max-width: 100%; 
+            height: auto; 
             display: block; 
         }
 
@@ -526,8 +535,8 @@ body, html {
         }
     
         main {
-            width: 100%; /* Garante que o main ocupe toda a largura disponível */
-            padding: 0; /* Remove qualquer padding que esteja causando problema */
+            width: 100%; 
+            padding: 0;
         }
     
         header {
@@ -661,13 +670,13 @@ nav ul li a:hover {
 }
 
 #menu-toggle {
-  display: none; /* Esconde o botão de hambúrguer em telas grandes */
+  display: none; 
 }
 }
 
 
 
-/* Estilos para telas menores */
+/*telas menores */
 @media (max-width: 778px) {
 .nav-list {
   display: none;
