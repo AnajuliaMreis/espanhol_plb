@@ -44,12 +44,26 @@ img4.addEventListener('mouseout', () => {
   
 
  // menú
+// document.addEventListener('DOMContentLoaded', () => {
+   // const menuToggle = document.getElementById('menu-toggle');
+  //  const menu = document.getElementById('nav-list');
+  
+   // menuToggle.addEventListener('click', () => {
+     // menu.classList.toggle('show');
+   // });
+  //});
+  
 
- function menu() {
-  let menuMobile = document.querySelector('.mobile-menu');
-  if (menuMobile.classList.contains('open')){
-    menuMobile.classList.remove('open');
-  } else {
-    menuMobile.classList.add('open')
-  }
-};
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.getElementById('menu-toggle'); // Botão de hambúrguer
+    const navList = document.querySelector('.nav-list'); // Div contendo a lista do menu
+  
+    if (menuToggle && navList) {
+      menuToggle.addEventListener('click', () => {
+        navList.classList.toggle('show'); // Adiciona ou remove a classe 'show' para alternar visibilidade
+      });
+    } else {
+      console.error('Erro: Elementos menu-toggle ou nav-list não foram encontrados!');
+    }
+  });
+  
