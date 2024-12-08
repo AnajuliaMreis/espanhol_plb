@@ -385,6 +385,7 @@ footer .footer-content p {
 }
 
 
+
 /*linha do tempo*/
 #linhat > h2 {
     display: flex;
@@ -471,7 +472,9 @@ margin-bottom: 10px;
 font-weight: 900;
 }
 
-
+ #fontes {
+    padding: 20px;
+ }
 
 
 
